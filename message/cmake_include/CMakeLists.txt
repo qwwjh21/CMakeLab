@@ -8,6 +8,6 @@ include("cmake/test_cmake1.cmake" OPTIONAL RESULT_VARIABLE ret) #RESULT_VARIABLE
 
 message("RESULT_VARIABLE RET = ${ret}")
 # 失败 NOTFOUND
-# 成功 导入文件的绝对路径
+# 成功 导入文件的绝对路径 
 
 message("end include")
